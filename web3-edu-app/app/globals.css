@@ -1,0 +1,64 @@
+/* Web3 Pixel Style */
+.web3-dark-bg {
+  background-color: #0a0a0a;
+  color: #00ff00;
+  font-family: 'Courier New', monospace;
+  min-height: 100vh;
+}
+
+.neon-text {
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+
+.pixel-border {
+  border: 2px solid #00ff00;
+  border-image: 
+    repeating-linear-gradient(
+      45deg,
+      #00ff00,
+      #00ff00 10px,
+      #0a0a0a 10px,
+      #0a0a0a 20px
+    ) 1;
+}
+
+.pixel-button {
+  background: #00ff00;
+  color: #0a0a0a;
+  border: 2px solid #00ff00;
+  padding: 10px 20px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.pixel-button:hover {
+  background: #0a0a0a;
+  color: #00ff00;
+  box-shadow: 0 0 15px #00ff00;
+}
+
+.pixel-card {
+  background: #1a1a1a;
+  border: 2px solid #00ff00;
+  border-radius: 0;
+  color: #00ff00;
+}
+
+.pixel-input {
+  background: #1a1a1a;
+  border: 2px solid #00ff00;
+  color: #00ff00;
+  font-family: 'Courier New', monospace;
+  border-radius: 0;
+}
+
+.pixel-input:focus {
+  background: #1a1a1a;
+  border-color: #00ff00;
+  color: #00ff00;
+  box-shadow: 0 0 10px #00ff00;
+  outline: none;
+}
